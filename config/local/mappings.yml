@@ -204,6 +204,7 @@ general:
         [ 'scripts/orderedPainting',			'production_bin' ],
         [ 'scripts/phylosift',				'production_bin' ],
         [ 'scripts/canu',				'production_bin' ],
+	[ 'scripts/racon-1.3.2				'production_bin' ],
         [ 'scripts/01_unipaths',			'production_bin' ],
         [ 'scripts/02_qgraph',				'production_bin' ],
         [ 'scripts/03_clean',				'production_bin' ],
