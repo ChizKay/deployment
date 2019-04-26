@@ -1,10 +1,10 @@
 general:
-    perl: [ 
+    perl: [
         ['scripts/template.pl',	'test_bin' ],
-        ['modules/Template.pm',	'test_lib' ] 
+        ['modules/Template.pm',	'test_lib' ]
     ]
-    java: [ 
-        ['code.jar', 'test_java' ] 
+    java: [
+        ['code.jar', 'test_java' ]
     ]
 
 general:
@@ -257,6 +257,9 @@ general:
 	[ 'scripts/ismap',                              'production_bin' ],
 	[ 'scripts/ismap.py',                           'production_bin' ],
 	[ 'scripts/fsm-lite',                           'production_bin' ],
+        [ 'scripts/kraken2',				'production_bin' ],
+        [ 'scripts/kraken2-build',				'production_bin' ],
+        [ 'scripts/kraken2-inspect',				'production_bin' ],
         [ 'scripts/profile.pathogen',			'production_etc' ],
         [ 'scripts/cshrc.pathogen',			'production_etc' ],
         [ 'scripts/ena_data_submission.conf',		'production_etc' ],
