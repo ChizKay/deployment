@@ -90,6 +90,7 @@ general:
         [ 'scripts/rfamscan2tab.pl',					'production_bin' ],
         [ 'scripts/tmhmm2embl.pl',					'production_bin' ],
         [ 'scripts/psu_union.pl',					'production_bin' ],
+        [ 'scripts/psu_splitter.pl',					'production_bin' ],
         [ 'scripts/signalp2embl.pl',					'production_bin' ],
         [ 'scripts/rfamscan_chado',					'production_bin' ],
         [ 'scripts/split_fa.pl',					'production_bin' ],
