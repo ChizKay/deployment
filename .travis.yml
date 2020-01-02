@@ -4,6 +4,6 @@ perl:
   - "5.14"
 sudo: false
 install:
-  - cpanm Getopt::Long Test::Most Net::SCP Git::Repository YAML::XS Time::Mock File::Slurp Date::Parse 
+  - cpanm --force Getopt::Long Test::Most Net::SCP Git::Repository YAML::XS Time::Mock File::Slurp Date::Parse 
 script:
   - make test
