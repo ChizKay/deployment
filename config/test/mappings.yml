@@ -257,6 +257,7 @@ general:
         [ 'scripts/exceptions',                   'production_etc' ],
         [ 'scripts/migration1',                   'production_etc' ],
         [ 'scripts/migration2',                   'production_etc' ],
+        [ 'scripts/migration3',                   'production_etc' ],
         [ 'scripts/cshrc.pathogen',			'production_etc' ],
         [ 'scripts/ena_data_submission.conf',		'production_etc' ],
         [ 'scripts/pf.conf',				'production_etc' ],
